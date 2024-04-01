@@ -19,7 +19,7 @@ https://github.com/local-first-web
 for a great comparison
 
 | | Installed Apps | Cloud Apps | Local-first Apps |
-|---|--------------|------------|------------------|
+|---|:--------------:|:------------:|:------------------:|
 |Fast | ✅ | ⛔️/✅ | ✅ |
 |Responsive | ✅ | ⛔️/✅ | ✅ |
 |No Network Dependency | ✅ | ⛔️ | ✅ |
