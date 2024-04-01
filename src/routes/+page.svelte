@@ -13,12 +13,38 @@
 	function onclick() {
 		yCounter.set('value', app_state.counter + 1);
 	}
+	function onclickReset() {
+		app_state.counter = 0
+		yCounter.set('value', app_state.counter);
+	}
 </script>
+<div class="container">
+	<div class="block">
 
-<h1>Layout {app_state.counter}</h1>
+
+<h1>Universal Count: {app_state.counter}</h1>
 
 <button {onclick}>Click</button>
+
+<button {onclickReset}>Reset</button>
+
 
 <p>
 	Websocket connection status: {connected ? '🟢' : '🔴'}
 </p>
+</div>
+</div>
+
+<style>
+	h1, p, button {
+		font-family: 'Averox'	
+	}
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.block {
+		display: block;
+	}
+</style>
