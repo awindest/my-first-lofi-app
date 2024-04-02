@@ -22,7 +22,7 @@
 	<div class="block">
 
 
-<h1>Universal Count: {app_state.counter}</h1>
+<h1>Universal Count: <div class="number">{app_state.counter}</div></h1>
 
 <button {onclick}>Click</button>
 
@@ -30,7 +30,7 @@
 
 
 <p>
-	Websocket connection status: {connected ? '🟢' : '🔴'}
+	Websocket connection status: {connected ? '🟢 - Yes' : '🔴 - No'}
 </p>
 </div>
 </div>
@@ -46,5 +46,11 @@
 	}
 	.block {
 		display: block;
+	}
+	.number {
+		font-family: 'Inter', sans-serif;
+		font-feature-settings: 'zero', 'tnum';
+  /* 'zero' => adds a slash to a zero to distinguish from an 'O' */
+  /* 'tnum' => change variable-spaced numbers to mono-spaced for formatting */
 	}
 </style>

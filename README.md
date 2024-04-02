@@ -3,7 +3,7 @@
 ### Thanks to Scott Tolinski!
 
 
-This code is an experimental exploration into using a yjs and indexeddb to better understand the lofi (local first) mechanisms. This is vanilla javascript using a beta version of svelte 5.
+This code is an experimental exploration into using yjs and indexeddb to better understand the lofi (local first) mechanisms. This is vanilla javascript using a beta version of svelte 5.
 
 ### Getting Started
 
@@ -30,10 +30,14 @@ for a great comparison
 |Continuous updates| ⛔️ | ✅ | ✅ |
 |Data Privacy | ✅ | ⛔️ | ✅ |
 |Data Portability | ⛔️ | ⛔️ | ✅ |
-|Here Be Dragons | ✅ | ✅ | ⛔️ |
 |Effort for Data Distribution | ✅ | ⛔️ | ✅ |
 |Availability | ✅ | ⛔️ | ✅ |
 |Benefits of both worlds | ⛔️ | ⛔️ | ✅ |
+|Maturity of technology | ✅ | ✅ | ⛔️ |
+|Here Be Dragons | ✅ | ✅ | ⛔️ |
+
+
+
 
 
 

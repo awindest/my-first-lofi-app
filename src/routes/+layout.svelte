@@ -11,6 +11,9 @@ Yet another science experiment from Indest Labs.
 Recommend viewing in Visual Source Code.
 -->
 <style>
+        @import url('https://rsms.me/inter/inter.css');
+
+
     @font-face {
         font-family: 'Averox';
         src: url("/fonts/Averox-webfont.woff2") format("woff2");
